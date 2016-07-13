@@ -1,0 +1,5 @@
+<%= search_form_for @search do |f| %>
+  <%= f.label :name_cont, 'Search' %>
+  <%= f.text_field :name_cont %>
+  <%= f.submit 'search', class: 'btn btn-primary' %>
+<% end %> 
